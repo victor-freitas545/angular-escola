@@ -1,0 +1,28 @@
+table,tr{
+    border-collapse: collapse;
+}
+th{
+    background-color: orangered;
+    color: white;
+    text-align: left;
+}
+tr{
+    color: #383737;
+}
+th,td {
+    padding: 10px;
+}
+table{
+    width: 100%;
+}
+table tr:nth-child(odd){
+    background-color: #cdcdcd;
+}
+
+table tr:hover{
+    background-color: #1c076e;
+    color: white;
+}
+.lista{
+    width: 850px;
+}

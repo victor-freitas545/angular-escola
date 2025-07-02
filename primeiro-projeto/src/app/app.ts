@@ -10,20 +10,35 @@ import { AlunoInterface } from './interfaces/AlunoInterface';
 export class App {
   protected title = 'primeiro-projeto';
 
+exibicao: string = 'cards';
+
+
   listaAlunos: AlunoInterface[] = [
     {
+      foto: "../../../assets/images/homem.webp",
       matricula: 0,
       nome: 'Vanderson',
       email: 'vandinho171@proway.com',
-      cadastro: false,
+      cadastro: true,
       cursos: ['Excel', 'Phyton']
     },
+
     {
+      foto: "../../../assets/images/mulher.webp",
       matricula: 1,
       nome: 'Aline',
       email: 'aline.silva@proway.com',
-      cadastro: false,
+      cadastro: true,
       cursos: ['Java', 'CSS']
-    }
+    },
+
+    {
+      foto:"../../../assets/images/menino.webp",
+      matricula:2,
+      nome: 'Péricles',
+      email: 'pericles.nando@proway.com',
+      cadastro: false,
+      cursos:['UI Design', 'AutoCad', 'Linux Server']
+    },
   ]
 }

@@ -1,6 +1,6 @@
 <div class="card">
 
-    <img src="../../../assets/images/3541871.png" alt="">
+    <img src="{{aluno.foto}}" alt="">
 
     <h2>{{aluno.nome}}</h2>
     <p>
@@ -12,4 +12,8 @@
     <p>
         <strong>E-mail:</strong>{{aluno.email}}
     </p>
+
+    <div class="aprovacao" [ngClass]="aluno.cadastro == true ? 'aprovado' : 'reprovado'">
+        <p>Aluno {{aluno.cadastro == true ? 'aprovado' : 'reprovado'}}</p>
+    </div>
 </div>

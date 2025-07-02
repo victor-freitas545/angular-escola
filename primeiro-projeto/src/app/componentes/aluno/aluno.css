@@ -1,6 +1,6 @@
 .card{
     width: 280px;
-    height: 420px;
+    height: 480px;
     border: solid 2px black;
     border-radius: 1px;
     color: rgb(31, 31, 31);
@@ -25,4 +25,17 @@ img{
     display: block;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+.aprovacao >p{
+    margin: 8px 0;
+    padding: 8px;
+    color: white;
+    border-radius: 4px;
+}
+
+.aprovado{
+    background-color: #0f6c07;
+}
+.reprovado{
+    background-color: #9e1616;
 }

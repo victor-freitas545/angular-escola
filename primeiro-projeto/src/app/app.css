@@ -10,5 +10,12 @@ h1, footer{
 }
 main {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
+.cards,.lista{
+    display: flex;
+    justify-content: center;
+}
+
 
