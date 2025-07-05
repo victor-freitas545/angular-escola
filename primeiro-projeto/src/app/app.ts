@@ -40,5 +40,13 @@ exibicao: string = 'cards';
       cadastro: false,
       cursos:['UI Design', 'AutoCad', 'Linux Server']
     },
-  ]
+  ];
+
+  alterarExibicao(): void {
+    if (this.exibicao == 'lista') {
+      this.exibicao = 'cards';
+    } else if (this.exibicao == 'cards') {
+      this.exibicao = 'lista';
+    }
+  }
 }
