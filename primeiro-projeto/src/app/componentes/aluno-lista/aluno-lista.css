@@ -24,5 +24,20 @@ table tr:hover{
     color: white;
 }
 .lista{
-    width: 850px;
+    width: 900px;
+}
+.btn{
+    padding: 4px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+.btn-green{
+    background-color: #046b04;
+}
+.btn-red{
+    background-color: red;
 }

@@ -25,7 +25,11 @@ img{
     display: block;
     margin-top: 20px;
     margin-bottom: 20px;
+    border: solid 2px black;
+    background-color: rgb(235, 225, 225);
+    border-radius: 50%;
 }
+
 .aprovacao{
     margin: 8px 0;
     padding: 8px;

@@ -5,4 +5,5 @@ export interface AlunoInterface {
     email: string;
     cadastro: boolean;
     cursos: string[];
+    notas: number[];
 }

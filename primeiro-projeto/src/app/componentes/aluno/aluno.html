@@ -13,6 +13,10 @@
         <strong>E-mail:</strong>{{aluno.email}}
     </p>
 
+    <p>
+        <strong>Média:</strong>{{calcularMedia()}}
+    </p>
+
     <div class="aprovacao" [ngClass]="aluno.cadastro == true ? 'aprovado' : 'reprovado'">
         <p>Aluno {{aluno.cadastro == true ? 'aprovado' : 'reprovado'}}</p>
     </div>
